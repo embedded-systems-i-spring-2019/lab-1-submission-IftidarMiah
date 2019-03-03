@@ -66,7 +66,7 @@ begin
 --        btn_tb(3) <= '1';   -- Ld = 1, default val = sw = 1010
 --        wait for 500ms;     -- Ld = 1, clk_en = 1, En = 1, so load 1010 into val_reg
 --        btn_tb(3) <= '0';   -- Can turn off for now because holding a button hurts
---        --wait for 5500ms;    -- Check for counting down every 500ms with clk_en rising edge
+--        wait for 5500ms;    -- Check for counting down every 500ms with clk_en rising edge
 --        sw_tb(0) <= '1';    -- Dir = sw(0) = 1
 --        btn_tb(2) <= '1';   -- UPDN = 1, will debounce soon
 --        wait for 500ms;     -- DIR=1, UPDN=1, clk_en=1, En=1, loads dir onto dir_reg and starts counting up
